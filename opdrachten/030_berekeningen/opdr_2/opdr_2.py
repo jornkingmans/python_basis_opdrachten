@@ -1,10 +1,11 @@
 # Opdracht 2 berekeningen
-# Naam student:
+# Naam student: Jorn Kingmans
 # Groep:
 
 # Hier komt je code...
 
-c = ...
-f = ...
+celsius = int(input("Noteer de temperatuur in Celsius :\n"))
+fahrenheit = (1.8 * celsius) + 32
+print("Temperatuur in Fahrenheit :", fahrenheit)
 
-print()
+#volgensmij niet helemaal hoe de opdracht het bedoelde maar vond dit wel mooi en simpel werken.
