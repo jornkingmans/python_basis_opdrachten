@@ -1,9 +1,12 @@
 # Opdracht 1 lists
-# Naam student:
+# Naam student: Jorn Kingmans
 # Groep:
 
-mylist = ...
-dict_1 = ...
-dict_2 = ...
-dict_3 = ...
-dict_4 = ...
+mylist = [
+    {"voornaam": "pietje", "achternaam": "puk"},
+    {"voornaam": "rik", "achternaam": "klaasen"},
+    {"voornaam": "tom", "achternaam": "balletik"},
+    {"voornaam": "koos", "achternaam": "werkloos"}
+]
+
+print(mylist[1]["voornaam"], mylist[2]["achternaam"])
