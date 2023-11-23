@@ -1,5 +1,5 @@
 # Opdracht 2 loops
-# Naam student:
+# Naam student: Jorn Kingmans
 # Groep:
 
 # Hier komt je code...
@@ -8,3 +8,7 @@
 
 my_list = []
 
+for i in range(1, 6):
+    my_list.append(i * 10)
+
+print (my_list)
